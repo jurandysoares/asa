@@ -13,6 +13,17 @@ comunicação seguro.
 
 (Saída do comando ``apt-cache show openssh-server``)
 
+Uso
+===
+
+O SSH pode ser utilizado para:
+
+* Acesso remoto seguro (Ex.: ``ssh usuario@servidor``)
+* Executar comandos remotos (Ex.: ``ssh usuario@servidor comando``)
+* Transferência remota de arquivos (Ex.: ``sftp usuario@servidor; scp /caminho/local/ usuario@servidor:/caminho/remoto``)
+* Executar aplicações gráficas remotamente (``ssh -XY usuario@servidor; aplicação gráfica &``)
+* Criar túnel/proxy socks (``ssh -D 1080 usuario@servidor``)
+
 Cliente
 =======
 
