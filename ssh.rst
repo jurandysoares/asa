@@ -37,7 +37,7 @@ Uso::
 Servidor
 ========
 
-:Porta: 22
+:Porta: 22/TCP
 :Processo: sshd
 :Serviço: ssh
 :Pacote: openssh-server
