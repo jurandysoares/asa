@@ -89,3 +89,12 @@ Gerenciamento do Pacote
 * Instalação do pacote:: 
 
     sudo apt-get install bind9
+    
+Dúvidas
+--------
+
+#. Como habilitar o registro das consultas no servidor Bind9?
+
+  * `How to enable named/bind/DNS full logging? [closed] <http://stackoverflow.com/questions/11153958/how-to-enable-named-bind-dns-full-logging>`_
+  * `Turn on or enable BIND DNS server logging to see all queries or for troubleshooting problem <http://www.cyberciti.biz/faq/howto-enable-dns-linux-unix-server-logging/>`_ 
+  * `BIND9 Server Howto <https://help.ubuntu.com/community/BIND9ServerHowto>`_
