@@ -11,7 +11,7 @@ Ao menos que você tenha alterado as configurações, seu novo servidor está co
 
 * Arquivos de configuração podem ser encontradas em ``/etc/lighttpd``. Por gentileza, leia o arquivo ``/etc/lighttpd/conf-available/README``
 
-* A raiz dos documentos (*DocumentRoot*), que é o diretório sobre o qual todos seus arquivos HTML deverão existir, está configurado para ``/var/www``
+* A raiz dos documentos (*DocumentRoot*), que é o diretório sobre o qual todos seus arquivos HTML deverão existir, está configurado para ``/var/www/html``
 
 * Scripts CGI são procurados em ``/usr/lib/cgi-bin``, que é onde os pacotes do Ubuntu irão colocar seus scripts. Você pode habilitar o módulo cgi ao utilizar o comando ``lighty-enable-mod cgi``
 * Os arquivos de registro (log) são postos em ``/var/log/lighttpd`` e serão rotacionados semanalmente. A frequência de rotação pode ser facilmente alterada ao editar o arquivo ``/etc/logrotate.d/lighttpd``
