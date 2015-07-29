@@ -16,7 +16,7 @@ Ao menos que você tenha alterado as configurações, seu novo servidor está co
 * Scripts CGI são procurados em ``/usr/lib/cgi-bin``, que é onde os pacotes do Ubuntu irão colocar seus scripts. Você pode habilitar o módulo cgi ao utilizar o comando ``lighty-enable-mod cgi``
 * Os arquivos de registro (log) são postos em ``/var/log/lighttpd`` e serão rotacionados semanalmente. A frequência de rotação pode ser facilmente alterada ao editar o arquivo ``/etc/logrotate.d/lighttpd``
 
-* O índice padrão do diretório é ``index.html``, significando que as solicitações para o diretório ``/foo/bar/`` irá oferecer o conteúdo do arquivo ``/var/www/foo/bar/index.html`` se ele existir (assumindo que ``/var/www`` é a raiz de documentos [*DocumentRoot*]).
+* O índice padrão do diretório é ``index.html``, significando que as solicitações para o diretório ``/foo/bar/`` irá oferecer o conteúdo do arquivo ``/var/www/html/foo/bar/index.html`` se ele existir (assumindo que ``/var/www/html`` é a raiz de documentos [*DocumentRoot*]).
     
 * Você pode habilitar os diretórios dos usuários ao executar o comando ``lighty-enable-mod userdir``
 
