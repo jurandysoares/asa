@@ -41,20 +41,21 @@ Inicialização de um contêiner no modo de serviço (-d : daemon)::
   $ sudo lxc-start -d -n pc-jurandy
   
 Obtenção de informações sobre o contêiner de nome *pc-jurandy*::
-$ sudo lxc-info -n pc-jurandy
-Name:           pc-jurandy
-State:          RUNNING
-PID:            16868
-IP:             10.0.3.93
-CPU use:        1.18 seconds
-BlkIO use:      144.00 KiB
-Memory use:     8.07 MiB
-KMem use:       0 bytes
-Link:           vethXLRPPR
- TX bytes:      2.41 KiB
- RX bytes:      6.70 KiB
- Total bytes:   9.11 KiB
-$ 
+
+  $ sudo lxc-info -n pc-jurandy
+  Name:           pc-jurandy
+  State:          RUNNING
+  PID:            16868
+  IP:             10.0.3.93
+  CPU use:        1.18 seconds
+  BlkIO use:      144.00 KiB
+  Memory use:     8.07 MiB
+  KMem use:       0 bytes
+  Link:           vethXLRPPR
+   TX bytes:      2.41 KiB
+   RX bytes:      6.70 KiB
+   Total bytes:   9.11 KiB
+  $ 
 
 * Como criar um contêiner do Debian::
 
