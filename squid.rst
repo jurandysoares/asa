@@ -28,3 +28,7 @@ Força o serviço fazer uma nova leitura do arquivo de configuração::
   sudo systemctl reload squid3
   
 Testar em um navegador Web.
+
+Verificar em tempo real quem tem acessado seu servidor Proxy::
+
+  sudo tail -f /var/log/squid3/access.log
