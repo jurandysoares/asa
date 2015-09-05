@@ -8,7 +8,12 @@ Instalação::
 
 Pré-configuração (remoção dos comentários e das linhas em branco)::
 
-  sudo sed -i -e '/#/d' -e '/^$/d' /etc/squid3/squid.conf 
+  sudo sed -i -e '/^#/d' -e '/^$/d' /etc/squid3/squid.conf 
+
+Onde:
+
+* **-e '/^#/d'**: apaga as linhas de comentários
+* **-e '/^$/d'**: apaga as linhas em branco
   
 Configuração (acrescentar)::
 
