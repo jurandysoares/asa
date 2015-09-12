@@ -36,7 +36,7 @@ Irá travar o terminal. E agora?
 
 Fechar o terminal existente e abrir um novo. Então, acoplar-se ao contêiner, habilitar a interface de rede e verificar se um endereço IP foi atribuído corretamente à interface de rede *eth0*::
 
-  sudo lxc-attach -n ubuntu@seunome
+  sudo lxc-attach -n ubuntu-seunome
   sudo ip addr show dev eth0
   sudo ifup eth0
   sudo ip addr show dev eth0
