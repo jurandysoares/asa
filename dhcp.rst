@@ -31,6 +31,10 @@ Links:
 
 * `Servidor Debian | 3.2.2 Servidor DHCP <http://servidordebian.org/pt/squeeze/intranet/dhcp/server>`_
 * `Debian: DHCP_Server <https://wiki.debian.org/DHCP_Server>`_ 
+
+Referência:
+
+* Capítulo 47 (DHCP) do livro `Descobrindo o Linux <http://novatec.com.br/livros/linux3/>`, de João Eriberto Mota Filho. O sumário do livro está disponível em <http://novatec.com.br/livros/linux3/sumario9788575222782.pdf>
   
   
   
