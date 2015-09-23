@@ -1,0 +1,8 @@
+"Opção", "Descrição", "Exemplo"
+rpm -qa ,Lista todos os pacotes instalados,rpm -qa
+rpm -q pacote,Consulta se pacote está instalado,rpm -q sudo
+rpm -qi pacote,Lista informações sobre o pacote,rpm -qi sudo
+rpm -ql pacote,Lista arquivos instalados pelo pacote,rpm -ql sudo
+rpm -qc pacote,Lista arquivos de configuração do pacote,rpm -qc sudo
+rpm -qd pacote,Lista arquivos de documentação do pacote,rpm -qd sudo
+rpm -qf /caminho/para/arquivo,Lista nome do pacote que instalou arquivo,rpm -qf $(which passwd)
