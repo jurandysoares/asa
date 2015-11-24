@@ -1,0 +1,116 @@
+Revisão para Prova
+====================
+
+Configuração de interface de rede
+-----------------------------------
+
+Arquivo:
+
+* /etc/network/interfaces
+
+Comandos:
+
+* ifconfig
+* ip addr
+* ifup eth0
+* ifdown eth0
+
+.. admonition:: Observação
+
+        Para executar esta operação, é fortemente recomendável que você se 
+        acople ao contêiner (lxc-attach -n contêiner)
+
+Configuração de nome da máquina
+-----------------------------------
+
+Arquivos:
+
+* /etc/hostname
+* /etc/hosts
+
+Comandos:
+
+* hostname
+
+
+Registro de alterações no diretório /etc
+-------------------------------------------
+
+Comandos:
+
+* Exibir arquivos alterados no diretório de trabalho::
+
+        sudo etckeeper vcs status
+    
+* Exibir um diff do repositório (ou arquivos selecionados)::
+
+        sudo etckeeper vcs diff /etc/caminho/de/um/arquivo
+        
+* Consolidar os arquivos pedidos ou todas as mudanças por gravar::
+
+    sudo etckeeper commit "Mensagem de consolidação"
+    
+* Mostrar o histórico de revisões do repositório ou de arquivos::
+
+    sudo etckeeper vcs log
+    
+* Iniciar um servidor web auto-suficiente::
+
+    sudo etckeeper vcs serve
+
+Gerenciamento de serviços
+---------------------------
+
+* Habilitar::
+
+    sudo systemctl enable <servico>
+    sudo update-rc.d <servico> enable
+    
+* Desabilitar::
+
+    sudo systemctl disable <servico>
+    sudo update-rc.d <servico> disable
+    
+* Iniciar::
+
+    sudo systemctl start <servico>
+    sudo service <servico> start
+
+* Parar::
+
+    sudo systemctl stop <servico>
+    sudo service <servico> stop
+
+* Reiniciar::
+
+    sudo systemctl restart <servico>
+    sudo service <servico> restart
+
+* Recarregar arquivos de configuração::
+
+    sudo systemctl reload <servico>
+    sudo service <servico> reload
+
+
+* Verificar o estado do serviço::
+
+    sudo systemctl status <servico>
+    sudo service <servico> status
+
+
+Resumo do comando SystemCTL::
+
+    systemctl <servico> (enable|disable|start|stop|restart|reload|status)
+
+SSH
+---
+
+Ver https://github.com/jurandysoares/asa/blob/master/ssh.rst
+
+
+
+
+
+
+
+
