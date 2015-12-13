@@ -1,0 +1,1 @@
+* `How To Manage /etc with Version Control Using Etckeeper on CentOS 7 | DigitalOcean <https://www.digitalocean.com/community/tutorials/how-to-manage-etc-with-version-control-using-etckeeper-on-centos-7>`_
