@@ -23,3 +23,9 @@ Troque:
   * senha
   
 pelos seus próprios valores.
+
+
+Referências
+------------
+
+* `MySQL—Some Handy Know-How <http://www.linuxjournal.com/content/mysql%E2%80%94some-handy-know-how>`_
