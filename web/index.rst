@@ -22,11 +22,11 @@ Respostas
 
 #. Versão 1.1 (http 1.1), de 1999.
  
-#. Porta 80.
+#. Porta 80/TCP.
  
-#. Porta 443.
+#. Porta 443/TCP.
  
-#. Apache2, IIS da Microsoft, Sun e Nginx. Dados de janeiro de 2015. Referência: http://news.netcraft.com/archives/2015/01/15/january-2015-web-server-survey.html
+#. Apache2, IIS da Microsoft, Sun e Nginx. Dados de janeiro de 2015. Referência: http://news.netcraft.com/archives/2016/01/26/january-2016-web-server-survey.html
  
 Atividade
 =========
