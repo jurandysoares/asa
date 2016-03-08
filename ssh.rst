@@ -89,3 +89,12 @@ Gerenciamento do Pacote
 * Instalação do pacote:: 
 
     sudo apt-get install openssh-server
+    
+Bloqueio de conexões indesejadas
+---------------------------------
+
+Utilize ou o DenyHosts (obsoleto, mas mais simples) ou o Fail2ban.
+
+* DenyHosts: `How To Install DenyHosts On Ubuntu 14.04 Server <http://www.liberiangeek.net/2014/10/install-denyhosts-ubuntu-14-04-server/>`_
+* Fail2ban: `How To Protect SSH with Fail2Ban on Ubuntu 14.04 <https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04>`_
+
