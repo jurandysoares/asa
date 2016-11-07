@@ -1,0 +1,14 @@
+a2,Apache2
+en,Habilitar
+dis,Desabilitar
+conf,Configuração
+mod,Módulo
+query,Consulta
+site,Sítio eletrônico
+a2enconf,Apache2 habilita configuração
+a2disconf,Apache2 desabilita configuração
+a2enmod,Apache2 habilita módulo
+a2dismod,Apache2 desabilita módulo
+a2ensite,Apache2 habilita sítio eletrônico
+a2dissite,Apache2 desabilita sítio eletrônico
+a2query,Apache2 consulta
