@@ -25,5 +25,6 @@ Links
 * `The Linux Tutorial: Syslogd <http://www.linux-tutorial.info/modules.php?name=MContent&pageid=57>`_
 * `Python Logging HOWTO <https://docs.python.org/2/howto/logging.html>`_
 * `Visualize event logs to identify compromised accounts <https://blog.apnic.net/2019/03/05/visualize-event-logs-to-identify-compromised-accounts/>`_
+* `rsyslog-docs: Documentation for the rsyslog project <https://github.com/rsyslog/rsyslog-doc>`_
 
 
