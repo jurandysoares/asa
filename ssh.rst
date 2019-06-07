@@ -78,6 +78,7 @@ Gerenciamento do Pacote
 
     apt-cache show openssh-server
     
+    
 * Verificar instalação:: 
 
     dpkg -l openssh-server
@@ -95,6 +96,13 @@ Bloqueio de conexões indesejadas
 
 Utilize ou o DenyHosts (obsoleto, mas mais simples) ou o Fail2ban.
 
+Referências
+-----------
+
+* `Be-a-bá do SSH, parte 1 <https://www.ibm.com/developerworks/community/blogs/752a690f-8e93-4948-b7a3-c060117e8665/entry/be_a_b_c3_a1_do_ssh_parte_130?lang=en>`_
+* `Bê-á-bá do SSH, parte 6: X remoto <https://www.ibm.com/developerworks/community/blogs/752a690f-8e93-4948-b7a3-c060117e8665/entry/b_C3_AA__C3_A1_b_C3_A1_do_ssh_parte_6_x_remoto10?lang=en>`_
+
 * DenyHosts: `How To Install DenyHosts On Ubuntu 14.04 Server <http://www.liberiangeek.net/2014/10/install-denyhosts-ubuntu-14-04-server/>`_
 * Fail2ban: `How To Protect SSH with Fail2Ban on Ubuntu 14.04 <https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04>`_
+
 
